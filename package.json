@@ -23,8 +23,7 @@
         "uuid": "9.0.1"
     },
     "author": {
-        "name": "Linda Nicole",
-        "url": "https://learnthisacademy.com"
+        "name": "Linda Nicole"
     },
     "license": "MIT",
     "devDependencies": {
