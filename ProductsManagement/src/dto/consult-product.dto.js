@@ -9,7 +9,9 @@ const consultProductSchema = Type.Object({
    additionalProperties: false
 })
 
-const ajv = new Ajv({ allErrors:true }).addKeyword('kind').addKeyword('modifier')
+const ajv = new Ajv({ allErrors:true })
+.addKeyword('kind')
+.addKeyword('modifier')
 
 ajvErrors(ajv)
 
